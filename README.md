@@ -1,4 +1,4 @@
-# surfs_up
+# SURFS UP
 
 ## Purpose of the analysis
 
