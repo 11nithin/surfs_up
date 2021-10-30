@@ -28,19 +28,22 @@ We pciked June and December in Oahu to determine if the surf and ice cream shop 
    - Wind condition on each month
   
 ````
-Decemeber Percipitation
+#### Decemeber Percipitation
 
 dec_prcp = session.query( Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
 dec_prcp = list(np.ravel(dec_prcp))
 dec_prcp_df = pd.DataFrame(dec_prcp)
 dec_prcp_df.describe()
+![dec](https://github.com/11nithin/surfs_up/blob/main/Resources/December_percipitation%20_summary.PNG)
 
-June Percipitation
+
+#### June Percipitation
 
 june_prcp = session.query( Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
 june_prcp = list(np.ravel(june_prcp))
 june_prcp_df = pd.DataFrame(june_prcp)
 june_prcp_df.describe()
 
+ ![JUNE](https://github.com/11nithin/surfs_up/blob/main/Resources/June_percipitation%20_summary.PNG)
 ````
 
