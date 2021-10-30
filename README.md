@@ -27,6 +27,7 @@ We pciked June and December in Oahu to determine if the surf and ice cream shop 
    - percipation each month to see the effect of rain
    - Wind condition on each month
   
+### Additional Queries
 
 #### Decemeber Percipitation
 ````
@@ -36,7 +37,6 @@ dec_prcp_df = pd.DataFrame(dec_prcp)
 dec_prcp_df.describe()
 ````
 ![dec](https://github.com/11nithin/surfs_up/blob/main/Resources/December_percipitation%20_summary.PNG)
-
 
 #### June Percipitation
 ````
