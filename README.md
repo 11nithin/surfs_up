@@ -6,6 +6,9 @@ Before starting up Surf and Ice cream shop in Oahu. Investor wants more informat
 
 
 ## Results
+I created an engine to connect the SQLite database and created classed that mapped to each table. Following are the tables:-
+ - Measurements made by stations (date, tobs and precipitation)
+ - List of stations with their coordinates, elevation and name.
 
 ### June Temprature Summary
 ![JUNE](https://github.com/11nithin/surfs_up/blob/main/Resources/June_Stat%20summary.PNG)
